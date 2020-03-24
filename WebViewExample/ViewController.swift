@@ -61,8 +61,10 @@ class ViewController: UIViewController {
             {
                 print("Can't Go Next")
             }
-         
             
+        case 3:
+            myWebKitView.reload()
+   
         default:
             print("No Navigation action found...")
         }
